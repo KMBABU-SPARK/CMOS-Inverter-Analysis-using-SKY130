@@ -122,7 +122,7 @@ The testbench consists of:
 > **Insert the complete testbench image here.**
 
 <p align="center">
-<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/01_design/images/Screenshot%202026-07-31%010035.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/01_design/images/Screenshot%202026-07-31%20010035.png" width="900">
 </p>
 
 **Figure 2.** Simulation testbench used for all analyses.
