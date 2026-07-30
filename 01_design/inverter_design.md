@@ -11,7 +11,7 @@ The complementary operation of the PMOS and NMOS transistors ensures that only o
 > Insert architecture diagram here.
 
 <p align="center">
-<img src="images/cmos_architecture.png" width="800">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/01_design/images/inverter_design.png" width="800">
 </p>
 
 ---
@@ -41,9 +41,11 @@ This complementary switching action produces the logical inversion of the input 
 > Insert waveform showing VIN and VOUT.
 
 <p align="center">
-<img src="images/operation.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/01_design/images/table.png" width="900">
 </p>
-
+<p align="center">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/01_design/images/input_output.png" width="900">
+</p>
 ---
 
 # 1.3 Device Sizing
@@ -76,7 +78,7 @@ The PMOS source is connected to the supply voltage (VDD), while the NMOS source 
 > Insert schematic here.
 
 <p align="center">
-<img src="images/inverter_schematic.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/01_design/images/inverter_schematic.png" width="900">
 </p>
 
 ---
@@ -95,7 +97,40 @@ It contains:
 - Simulation commands
 
 ```spice
-* Paste your generated SPICE netlist here
+
+** sch_path: /home/mahesh97/work/xschem/ivt_test.sch
+**.subckt ivt_test
+x1 vcc vin vout GND inv_vtc
+Vin vin GND pulse(0 1.8 0 0.3n 0.3n 3n 6.6n 10)
+Vcc vcc GND 1.8
+**** begin user architecture code
+
+.lib /home/mahesh97/share/pdk/sky130A/libs.tech/ngspice/sky130.lib.spice tt
+.dc vin 0 1.8 0.01
+.tran .02n 40n
+.save all
+.end
+
+**** end user architecture code
+**.ends
+
+* expanding   symbol:  inv_vtc.sym # of pins=4
+** sym_path: /home/mahesh97/work/xschem/inv_vtc.sym
+** sch_path: /home/mahesh97/work/xschem/inv_vtc.sch
+.subckt inv_vtc vcc vin vout gnd
+*.ipin vin
+*.ipin vcc
+*.ipin gnd
+*.opin vout
+XM1 vout vin gnd gnd sky130_fd_pr__nfet_01v8 L=0.15 W=3.78 nf=1 ad=1.0962 as=1.0962 pd=8.14 ps=8.14 nrd=0.0767195767195767
++ nrs=0.0767195767195767 sa=0 sb=0 sd=0 mult=1 m=1
+XM2 vout vin vcc vcc sky130_fd_pr__pfet_01v8 L=0.15 W=7.56 nf=1 ad=2.1924 as=2.1924 pd=15.7 ps=15.7 nrd=0.0383597883597884
++ nrs=0.0383597883597884 sa=0 sb=0 sd=0 mult=1 m=1
+.ends
+
+.GLOBAL GND
+.end
+
 ```
 
 The netlist is directly used by ngspice to perform circuit simulation and electrical analysis.
@@ -146,7 +181,7 @@ The selected pulse parameters provide sufficient transition time for observing s
 > Insert input waveform.
 
 <p align="center">
-<img src="images/input_waveform.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/01_design/images/transient.png" width="900">
 </p>
 
 ---
@@ -189,7 +224,7 @@ Before performing detailed characterization, the functionality of the CMOS inver
 > Insert transient waveform showing VIN and VOUT.
 
 <p align="center">
-<img src="images/functional_verification.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/01_design/images/transient.png" width="900">
 </p>
 
 ### Observation
