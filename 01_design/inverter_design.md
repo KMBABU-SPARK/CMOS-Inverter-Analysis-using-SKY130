@@ -156,7 +156,7 @@ The same testbench is used throughout this project for DC, transient, delay, tim
 > Insert complete testbench.
 
 <p align="center">
-<img src="images/testbench.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/01_design/images/testbench.png" width="900">
 </p>
 
 ---
@@ -181,7 +181,7 @@ The selected pulse parameters provide sufficient transition time for observing s
 > Insert input waveform.
 
 <p align="center">
-<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/01_design/images/transient.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/01_design/images/vin.png" width="900">
 </p>
 
 ---
@@ -203,7 +203,7 @@ Including the load capacitor produces more realistic measurements of propagation
 > Insert screenshot showing the output capacitor.
 
 <p align="center">
-<img src="images/load_capacitance.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/01_design/images/cap.png" width="900">
 </p>
 
 ---
