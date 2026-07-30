@@ -98,7 +98,7 @@ The CMOS inverter consists of the following components.
 > **Insert the CMOS inverter schematic here.**
 
 <p align="center">
-<img src="images/inverter_schematic.png" width="850">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/01_design/images/Screenshot%202026-07-31%20005538.png" width="850">
 </p>
 
 **Figure 1.** CMOS inverter designed using SKY130 PMOS and NMOS devices in Xschem.
@@ -122,7 +122,7 @@ The testbench consists of:
 > **Insert the complete testbench image here.**
 
 <p align="center">
-<img src="images/testbench.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/01_design/images/Screenshot%202026-07-31%010035.png" width="900">
 </p>
 
 **Figure 2.** Simulation testbench used for all analyses.
