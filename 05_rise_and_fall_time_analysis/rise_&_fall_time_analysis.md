@@ -97,7 +97,7 @@ The output waveform is analyzed to determine the transition time between the **1
 > Insert the transient simulation testbench.
 
 <p align="center">
-<img src="images/rise_fall_testbench.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/05_rise_and_fall_time_analysis/photos/tb.png" width="900">
 </p>
 
 ---
@@ -123,9 +123,11 @@ t_r=t_{90\%}-t_{10\%}
 > Insert waveform highlighting the 10% and 90% rise points.
 
 <p align="center">
-<img src="images/rise_time_waveform.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/05_rise_and_fall_time_analysis/photos/trise.png" width="900">
 </p>
-
+<p align="center">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/05_rise_and_fall_time_analysis/photos/rise.png" width="900">
+</p>
 ---
 
 # 5.6 Fall Time Measurement
@@ -149,9 +151,11 @@ t_f=t_{10\%}-t_{90\%}
 > Insert waveform highlighting the 90% and 10% fall points.
 
 <p align="center">
-<img src="images/fall_time_waveform.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/05_rise_and_fall_time_analysis/photos/tfall.png" width="900">
 </p>
-
+<p align="center">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/05_rise_and_fall_time_analysis/photos/fall.png" width="900">
+</p>
 ---
 
 # 5.7 Effect of Load Capacitance
