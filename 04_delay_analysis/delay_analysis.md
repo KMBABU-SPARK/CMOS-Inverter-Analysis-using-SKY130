@@ -20,22 +20,18 @@ The delay is primarily caused by:
 
 Propagation delay is measured at the **50% voltage level** of both the input and output waveforms.
 
-Since the supply voltage is **1.8 V**, the measurement point is:
+Since the supply voltage is **1.8 V**, the 50% reference voltage used for propagation delay measurement is:
 
-\[
-50\% \times V_{DD} = 0.9\ \text{V}
-\]
+**50% × 1.8 V = 0.9 V**
+
+The average propagation delay is calculated as:
+
+**Average Propagation Delay = (tPHL + tPLH) / 2**
 
 The propagation delay consists of two components:
 
 - **tPHL** – Output transition from HIGH to LOW.
 - **tPLH** – Output transition from LOW to HIGH.
-
-The average propagation delay is given by
-
-\[
-t_{pd}=\frac{t_{PHL}+t_{PLH}}{2}
-\]
 
 ---
 
@@ -102,11 +98,7 @@ The measurement is performed as follows:
 - Measure the time difference between the input and output crossing **0.9 V**.
 
 The average propagation delay is then calculated using
-
-\[
-t_{pd}=\frac{t_{PHL}+t_{PLH}}{2}
-\]
-
+**Average Propagation Delay = (tPHL + tPLH) / 2**
 ### 📷 Delay Measurement Waveform
 
 > Insert the waveform showing the 50% delay measurement points.
