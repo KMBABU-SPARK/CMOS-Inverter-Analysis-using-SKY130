@@ -138,7 +138,7 @@ When the input is HIGH:
 > Insert waveform highlighting charging and discharging intervals.
 
 <p align="center">
-<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/03_Transient_analysis/photos/output.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/03_Transient_analysis/photos/capacitor charging due to pmos.png" width="900">
 </p>
 
 ---
