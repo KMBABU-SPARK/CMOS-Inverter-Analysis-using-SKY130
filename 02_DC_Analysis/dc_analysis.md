@@ -1,4 +1,4 @@
-# 2.1 Introduction
+<img width="1917" height="1016" alt="Your paragraph text (1)" src="https://github.com/user-attachments/assets/b76114d8-5f53-4164-b263-b64d5b930534" /># 2.1 Introduction
 
 DC analysis is performed to evaluate the steady-state behavior of the CMOS inverter by gradually varying the input voltage while observing the corresponding output voltage. Unlike transient analysis, which studies time-dependent switching behavior, DC analysis focuses on the static electrical characteristics of the circuit.
 
@@ -158,7 +158,7 @@ An ideally symmetric CMOS inverter has a switching threshold close to **VDD / 2*
 > Insert VTC with the switching threshold marked.
 
 <p align="center">
-<img src="images/switching_threshold.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/02_DC_Analysis/Photos/VTH.png" width="900">
 </p>
 
 ---
