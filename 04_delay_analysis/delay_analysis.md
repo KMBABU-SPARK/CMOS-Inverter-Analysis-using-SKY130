@@ -74,7 +74,7 @@ The delay is measured by comparing the input and output waveforms at the **50% v
 > Insert the transient simulation testbench used for delay measurement.
 
 <p align="center">
-<img src="images/delay_testbench.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/04_delay_analysis/photos/tb.png" width="900">
 </p>
 
 ---
@@ -104,7 +104,7 @@ The average propagation delay is then calculated using
 > Insert the waveform showing the 50% delay measurement points.
 
 <p align="center">
-<img src="images/delay_measurement.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/04_delay_analysis/photos/op.png" width="900">
 </p>
 
 ---
@@ -137,7 +137,7 @@ The measured values are displayed in the ngspice console after simulation.
 > Insert screenshot of the ngspice console displaying `tPHL`, `tPLH`, and `tpd`.
 
 <p align="center">
-<img src="images/ngspice_delay_output.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/04_delay_analysis/photos/scematic_data.png" width="900">
 </p>
 
 ---
@@ -150,18 +150,15 @@ After obtaining the measured values from ngspice, the average propagation delay 
 
 | Parameter | Value |
 |-----------|------:|
-| tPHL | XX ps |
-| tPLH | XX ps |
+| tPHL | 147.73 ps |
+| tPLH | 192.90 ps |
 
 Average propagation delay:
+**Average Propagation Delay = (tPHL + tPLH) / 2**
+| Parameter | Value |
+|-----------|------:|
+| tPD | 170.315 ps |
 
-\[
-t_{pd}=\frac{t_{PHL}+t_{PLH}}{2}
-\]
-
-\[
-t_{pd}=XX\ \text{ps}
-\]
 
 Replace the example values with the measured results obtained from simulation.
 
@@ -175,9 +172,9 @@ The measured propagation delay values are summarized below.
 |-----------|------:|
 | Supply Voltage | 1.8 V |
 | Load Capacitance | 0.25 pF |
-| tPHL | XX ps |
-| tPLH | XX ps |
-| Average Delay | XX ps |
+| tPHL | 147.73 ps |
+| tPLH | 192.90 ps |
+| Average Delay | 170.315 ps |
 
 ---
 
@@ -201,9 +198,9 @@ The following observations were made during propagation delay analysis:
 | Supply Voltage | 1.8 V |
 | Analysis Type | Transient |
 | Load Capacitance | 0.25 pF |
-| tPHL | XX ps |
-| tPLH | XX ps |
-| Average Delay | XX ps |
+| tPHL | 147.73 ps |
+| tPLH | 192.90 ps |
+| Average Delay | 170.315 ps |
 
 ---
 
