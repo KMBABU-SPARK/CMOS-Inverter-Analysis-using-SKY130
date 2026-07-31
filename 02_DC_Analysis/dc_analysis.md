@@ -61,7 +61,7 @@ The output voltage is recorded for every input voltage, resulting in the Voltage
 > Insert the Xschem testbench configured for DC analysis.
 
 <p align="center">
-<img src="images/dc_sweep_setup.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/02_DC_Analysis/Photos/tb.png" width="900">
 </p>
 
 ---
@@ -104,7 +104,7 @@ A steep transition region indicates high voltage gain and good switching perform
 > Insert your ngspice VTC plot here.
 
 <p align="center">
-<img src="images/vtc_curve.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/02_DC_Analysis/Photos/ipop.png" width="900">
 </p>
 
 ### Observation
@@ -134,7 +134,7 @@ The logic levels are extracted directly from the Voltage Transfer Characteristic
 > Insert annotated VTC showing VOH, VOL, VIH, and VIL.
 
 <p align="center">
-<img src="images/logic_levels.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/02_DC_Analysis/Photos/Your paragraph text.png" width="900">
 </p>
 
 ---
@@ -189,7 +189,7 @@ Larger noise margins indicate better immunity to electrical disturbances and imp
 > Insert annotated VTC highlighting NMH and NML.
 
 <p align="center">
-<img src="images/noise_margin.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/02_DC_Analysis/Photos/noise_margin.png" width="900">
 </p>
 
 ---
