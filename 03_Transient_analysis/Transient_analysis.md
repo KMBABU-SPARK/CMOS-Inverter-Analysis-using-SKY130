@@ -61,7 +61,7 @@ The transient simulation records both the input and output voltages over time.
 > Insert the transient simulation testbench.
 
 <p align="center">
-<img src="images/transient_testbench.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/03_Transient_analysis/photos/testbench.png" width="900">
 </p>
 
 ---
@@ -88,7 +88,7 @@ The selected pulse parameters provide sufficient switching intervals to observe 
 > Insert the input waveform obtained from ngspice.
 
 <p align="center">
-<img src="images/input_waveform.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/03_Transient_analysis/photos/input.png" width="900">
 </p>
 
 ---
@@ -106,7 +106,7 @@ When the input transitions from HIGH to LOW, the PMOS transistor conducts and ch
 > Insert the output waveform obtained from ngspice.
 
 <p align="center">
-<img src="images/output_waveform.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/03_Transient_analysis/photos/inout.png" width="900">
 </p>
 
 ---
@@ -138,7 +138,7 @@ When the input is HIGH:
 > Insert waveform highlighting charging and discharging intervals.
 
 <p align="center">
-<img src="images/charging_discharging.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/03_Transient_analysis/photos/output.png" width="900">
 </p>
 
 ---
@@ -167,9 +167,12 @@ These effects are investigated in greater detail in the timing and power analysi
 > Insert screenshot showing the output load capacitor.
 
 <p align="center">
-<img src="images/load_capacitance.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/03_Transient_analysis/photos/cap1p.png" width="900">
 </p>
-
+---
+<p align="center">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/03_Transient_analysis/photos/cap.50.png" width="900">
+</p>
 ---
 
 # 3.9 Engineering Observations
