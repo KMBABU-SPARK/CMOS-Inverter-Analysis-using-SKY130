@@ -107,6 +107,10 @@ The average propagation delay is then calculated using
 <img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/04_delay_analysis/photos/op.png" width="900">
 </p>
 
+<p align="center">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/04_delay_analysis/photos/tphl.png" width="900">
+</p>
+
 ---
 
 # 4.6 Delay Measurement Commands
