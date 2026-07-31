@@ -118,23 +118,32 @@ The average propagation delay is then calculated using
 The following ngspice commands are used to measure the propagation delays automatically.
 
 ```spice
-.control
-run
+### High-to-Low Propagation Delay (tPHL)
 
-meas tran tphl TRIG v(vin) VAL=0.9 RISE=1 \
-+ TARG v(vout) VAL=0.9 FALL=1
-
-meas tran tplh TRIG v(vin) VAL=0.9 FALL=1 \
-+ TARG v(vout) VAL=0.9 RISE=1
-
-let tpd=(tphl+tplh)/2
-
-print tphl tplh tpd
-
-.endc
+```spice
+meas tran vin50 when vin=0.9 RISE=2
+meas tran vout50 when vout=0.9 FALL=2
+let tphl = vout50 - vin50
+print tphl
 ```
 
-The measured values are displayed in the ngspice console after simulation.
+### Low-to-High Propagation Delay (tPLH)
+
+```spice
+meas tran vin50 when vin=0.9 FALL=2
+meas tran vout50 when vout=0.9 RISE=2
+let tplh = vout50 - vin50
+print tplh
+```
+
+### Average Propagation Delay
+
+```spice
+let tpd = (tphl + tplh)/2
+print tpd
+```
+
+The measured values are displayed in the ngspice console after the simulation.
 
 ### 📷 ngspice Measurement Output
 
