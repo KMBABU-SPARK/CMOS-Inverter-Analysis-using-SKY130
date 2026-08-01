@@ -91,7 +91,7 @@ The supply current flowing from the voltage source is monitored throughout the s
 > Insert the transient simulation testbench used for power analysis.
 
 <p align="center">
-<img src="images/power_testbench.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/06_power_analysis/photos/tb.png" width="900">
 </p>
 
 ---
@@ -113,7 +113,7 @@ These current spikes correspond to:
 > Insert the supply current waveform obtained from ngspice.
 
 <p align="center">
-<img src="images/supply_current.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/06_power_analysis/photos/output.png" width="900">
 </p>
 
 ---
@@ -207,7 +207,7 @@ The measured values are displayed in the ngspice console after the simulation.
 > Insert screenshot showing the measured average current and average power.
 
 <p align="center">
-<img src="images/ngspice_power_output.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/06_power_analysis/photos/SIM.png" width="900">
 </p>
 
 ---
@@ -220,10 +220,10 @@ The measured power consumption is summarized below.
 |-----------|------:|
 | Supply Voltage | 1.8 V |
 | Load Capacitance | 0.25 pF |
-| Average Supply Current | XX µA |
-| Static Power | XX nW |
-| Dynamic Power | XX µW |
-| Average Power | XX µW |
+| Average Supply Current | 23.44 µA |
+| Static Power | 0.022 nW |
+| Dynamic Power | 42.20 µW |
+| Average Power | 42.22 µW |
 
 ---
 
@@ -248,10 +248,10 @@ The following observations were made during power analysis:
 | Supply Voltage | 1.8 V |
 | Analysis Type | Transient |
 | Load Capacitance | 0.25 pF |
-| Average Supply Current | XX µA |
-| Static Power | XX nW |
-| Dynamic Power | XX µW |
-| Average Power | XX µW |
+| Average Supply Current | 23.44 µA |
+| Static Power | 0.022 nW |
+| Dynamic Power | 42.20 µW |
+| Average Power | 42.22 µW |
 
 ---
 
