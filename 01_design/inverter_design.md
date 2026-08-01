@@ -56,10 +56,10 @@ The following device dimensions were used.
 
 | Parameter | Value |
 |-----------|------:|
-| PMOS Width | *(Add your value)* |
-| PMOS Length | *(Add your value)* |
-| NMOS Width | *(Add your value)* |
-| NMOS Length | *(Add your value)* |
+| PMOS Width | *7.56* |
+| PMOS Length | *0.15* |
+| NMOS Width | *3.78* |
+| NMOS Length | *0.15* |
 
 ### Design Rationale
 
