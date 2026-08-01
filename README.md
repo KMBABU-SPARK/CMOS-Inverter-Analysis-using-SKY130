@@ -38,6 +38,17 @@ The primary objectives of this project are:
 | Ubuntu | Simulation Environment |
 
 ---
+# 📚 Lessons
+
+| No. | Chapter | Link |
+|:---:|---------|------|
+| 1️⃣ | CMOS Inverter Design | 🔗 [Go](#1️⃣-cmos-inverter-design) |
+| 2️⃣ | DC Analysis (Voltage Transfer Characteristics) | 🔗 [Go](#2️⃣-dc-analysis-voltage-transfer-characteristics) |
+| 3️⃣ | Transient Analysis | 🔗 [Go](#3️⃣-transient-analysis) |
+| 4️⃣ | Propagation Delay Analysis | 🔗 [Go](#4️⃣-propagation-delay-analysis) |
+| 5️⃣ | Rise Time and Fall Time Analysis | 🔗 [Go](#5️⃣-rise-time-and-fall-time-analysis) |
+| 6️⃣ | Power Analysis | 🔗 [Go](#6️⃣-power-analysis) |
+
 
 # 📚 Repository Contents
 
@@ -262,21 +273,6 @@ After completing this repository, you will understand:
 
 ---
 
-# 🚀 Future Enhancements
-
-- Fan-Out Analysis
-- Delay vs Load Capacitance
-- Supply Voltage Scaling
-- Temperature Analysis
-- Monte Carlo Simulation
-- Process Corner Analysis
-- Ring Oscillator Design
-- CMOS NAND Gate
-- CMOS NOR Gate
-- CMOS XOR Gate
-- Standard Cell Library Characterization
-
----
 
 # 📚 References
 
