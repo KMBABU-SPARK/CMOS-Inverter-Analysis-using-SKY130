@@ -42,12 +42,12 @@ The primary objectives of this project are:
 
 | No. | Chapter | Link |
 |:---:|---------|------|
-| 1️⃣ | CMOS Inverter Design | 🔗 [Go](#1️⃣-cmos-inverter-design) |
-| 2️⃣ | DC Analysis (Voltage Transfer Characteristics) | 🔗 [Go](#2️⃣-dc-analysis-voltage-transfer-characteristics) |
-| 3️⃣ | Transient Analysis | 🔗 [Go](#3️⃣-transient-analysis) |
-| 4️⃣ | Propagation Delay Analysis | 🔗 [Go](#4️⃣-propagation-delay-analysis) |
-| 5️⃣ | Rise Time and Fall Time Analysis | 🔗 [Go](#5️⃣-rise-time-and-fall-time-analysis) |
-| 6️⃣ | Power Analysis | 🔗 [Go](#6️⃣-power-analysis) |
+| 1️⃣ | CMOS Inverter Design | 🔗 [Go](https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/01_design/inverter_design.md) |
+| 2️⃣ | DC Analysis (Voltage Transfer Characteristics) | 🔗 [Go](https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/02_DC_Analysis/dc_analysis.md) |
+| 3️⃣ | Transient Analysis | 🔗 [Go](https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/03_Transient_analysis/Transient_analysis.md) |
+| 4️⃣ | Propagation Delay Analysis | 🔗 [Go](https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/04_delay_analysis/delay_analysis.md) |
+| 5️⃣ | Rise Time and Fall Time Analysis | 🔗 [Go](https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/05_rise_and_fall_time_analysis/rise_%26_fall_time_analysis.md) |
+| 6️⃣ | Power Analysis | 🔗 [Go](https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/06_power_analysis/power_analysis.md) |
 
 
 # 📚 Repository Contents
