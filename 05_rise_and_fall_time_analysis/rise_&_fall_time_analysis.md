@@ -180,7 +180,7 @@ The output load capacitance significantly affects the transition speed of the CM
 ### 📷 Comparison of Output Waveforms
 
 > Insert waveforms comparing different load capacitances.
-> capacitor->1pf
+## capacitor->1pf
 ## Trise->1.37nsec
 
 <p align="center">
@@ -188,7 +188,7 @@ The output load capacitance significantly affects the transition speed of the CM
 </p>
 
 
-> capacitor->0.15pf
+## capacitor->0.15pf
 ## Trise->0.2155 ns
 
 <p align="center">
@@ -221,8 +221,8 @@ The measured rise and fall times are obtained directly from the transient wavefo
 
 | Parameter | Value |
 |-----------|------:|
-| Rise Time | XX ps |
-| Fall Time | XX ps |
+| Rise Time | 0.351 ns |
+| Fall Time | 0.223 ns |
 
 Replace the example values with the measured results obtained from ngspice.
 
@@ -234,8 +234,8 @@ Replace the example values with the measured results obtained from ngspice.
 |-----------|------:|
 | Supply Voltage | 1.8 V |
 | Load Capacitance | 0.25 pF |
-| Rise Time | XX ps |
-| Fall Time | XX ps |
+| Rise Time | 0.351 ns |
+| Fall Time | 0.223 ns |
 
 ---
 
@@ -259,8 +259,8 @@ The following observations were made during rise and fall time analysis:
 | Supply Voltage | 1.8 V |
 | Analysis Type | Transient |
 | Load Capacitance | 0.25 pF |
-| Rise Time | XX ps |
-| Fall Time | XX ps |
+| Rise Time | 0.351 ns |
+| Fall Time | 0.223 ns |
 
 ---
 
