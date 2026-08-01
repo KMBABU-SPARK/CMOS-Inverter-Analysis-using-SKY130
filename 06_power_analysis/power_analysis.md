@@ -42,9 +42,7 @@ Dynamic power depends on:
 
 The dynamic power is given by
 
-\[
-P_{dynamic}=C_LV_{DD}^{2}f
-\]
+**Dynamic Power = Cₗ × VDD² × f**
 
 where
 
@@ -124,16 +122,15 @@ The total energy consumed during simulation is determined by integrating the sup
 
 The instantaneous power is given by
 
-\[
-P(t)=V_{DD}\times I_{DD}(t)
-\]
+**Instantaneous Power = Supply Voltage × Supply Current**
+
+**P(t) = VDD × IDD(t)**
 
 The total energy consumed is
 
-\[
-E=\int_{0}^{T}P(t)\,dt
-\]
+**Total Energy Consumed = ∫ Instantaneous Power × dt**
 
+**E = ∫ P(t) dt**
 where
 
 - \(P(t)\) = Instantaneous power
@@ -150,15 +147,15 @@ The average power is calculated from the total energy consumed during the simula
 
 The average power is given by
 
-\[
-P_{avg}=\frac{1}{T}\int_{0}^{T}P(t)\,dt
-\]
+**Average Power = Total Energy / Measurement Time**
+
+**Pavg = E / T**
 
 Alternatively,
 
-\[
-P_{avg}=V_{DD}\times I_{avg}
-\]
+**Average Power = Supply Voltage × Average Supply Current**
+
+**Pavg = VDD × Iavg**
 
 where
 
@@ -169,36 +166,64 @@ where
 | Parameter | Value |
 |-----------|------:|
 | Supply Voltage | 1.8 V |
-| Average Current | XX µA |
+| Average Current | 23.44 µA |
 
 Average Power
 
-\[
-P_{avg}=1.8\times XX\,\mu A
-\]
+**Average Power = Supply Voltage × Average Supply Current**
 
-Replace the example values with the measured simulation results.
+**Pavg = VDD × Iavg**
 
+**= 1.8 × 23.44 µA**
+
+**= 42.20 µW**
 ---
 
 # 6.8 ngspice Measurement Commands
 
 The following commands can be used to measure the supply current and average power automatically.
 
+# 1.average supply current
 ```spice
 .control
 run
 
-let pinst = -v(vdd)*i(VDD)
+meas tran charge integ vcc#branch from=20n to=40n
+let iavg = abs(charge)/20e-9
 
-meas tran avg_current AVG i(VDD)
-meas tran avg_power AVG par('-v(vdd)*i(VDD)')
-
-print avg_current
-print avg_power
+print iavg
 
 .endc
 ```
+# 2.average power
+```spice
+.control
+run
+
+meas tran charge integ vcc#branch from=20n to=40n
+let iavg = abs(charge)/20e-9
+let pavg = 1.8*iavg
+
+print pavg
+
+.endc
+```
+# 3.Static power
+```spice
+.control
+run
+
+meas tran q_static integ vcc#branch from=22n to=28n
+
+let istatic = abs(q_static)/6e-9
+let pstatic = 1.8*istatic
+
+print istatic
+print pstatic
+
+.endc
+```
+# 4.dynamic_power=avg_power-static_power
 
 The measured values are displayed in the ngspice console after the simulation.
 
