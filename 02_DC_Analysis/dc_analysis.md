@@ -120,12 +120,12 @@ A steep transition region indicates high voltage gain and good switching perform
 
 The logic levels define the valid HIGH and LOW voltage ranges of the CMOS inverter.
 
-| Parameter | Description | Value |
-|-----------|-------------|------:|
-| VOH | Logic HIGH Output Voltage | *(Measured)* |
-| VOL | Logic LOW Output Voltage | *(Measured)* |
-| VIH | Minimum Input Voltage recognized as HIGH | *(Measured)* |
-| VIL | Maximum Input Voltage recognized as LOW | *(Measured)* |
+| Parameter | Description | 
+|-----------|-------------|
+| VOH | Logic HIGH Output Voltage | 
+| VOL | Logic LOW Output Voltage | 
+| VIH | Minimum Input Voltage recognized as HIGH | 
+| VIL | Maximum Input Voltage recognized as LOW | 
 
 The logic levels are extracted directly from the Voltage Transfer Characteristic.
 
@@ -149,9 +149,9 @@ An ideally symmetric CMOS inverter has a switching threshold close to **VDD / 2*
 
 ### Switching Threshold
 
-| Parameter | Symbol | Value |
-|-----------|--------|------:|
-| Switching Threshold | VM | *(Measured)* |
+| Parameter | Symbol | 
+|-----------|--------|
+| Switching Threshold | VM | 
 
 ### 📷 Switching Threshold on VTC
 
@@ -179,10 +179,10 @@ Larger noise margins indicate better immunity to electrical disturbances and imp
 
 ### Noise Margin Summary
 
-| Parameter | Formula | Value |
-|-----------|----------|------:|
-| High Noise Margin | VOH − VIH | *(Calculated)* |
-| Low Noise Margin | VIL − VOL | *(Calculated)* |
+| Parameter | Formula | 
+|-----------|----------|
+| High Noise Margin | VOH − VIH | 
+| Low Noise Margin | VIL − VOL | 
 
 ### 📷 Noise Margins on VTC
 
@@ -212,11 +212,11 @@ The following observations were made from the DC analysis:
 | Parameter | Symbol | Value |
 |-----------|--------|------:|
 | Supply Voltage | VDD | 1.8 V |
-| Logic HIGH Output | VOH | *(Measured)* |
-| Logic LOW Output | VOL | *(Measured)* |
-| Switching Threshold | VM | *(Measured)* |
-| High Noise Margin | NMH | *(Calculated)* |
-| Low Noise Margin | NML | *(Calculated)* |
+| Logic HIGH Output | VOH | *1.8v* |
+| Logic LOW Output | VOL | *0v* |
+| Switching Threshold | VM | *0.85v* |
+| High Noise Margin | NMH | *0.8v* |
+| Low Noise Margin | NML | *0.7v* |
 
 ---
 
