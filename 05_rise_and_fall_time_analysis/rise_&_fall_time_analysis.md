@@ -180,9 +180,19 @@ The output load capacitance significantly affects the transition speed of the CM
 ### 📷 Comparison of Output Waveforms
 
 > Insert waveforms comparing different load capacitances.
+> capacitor->1pf
+## Trise->1.37nsec
 
 <p align="center">
-<img src="images/load_capacitance_comparison.png" width="900">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/05_rise_and_fall_time_analysis/photos/cap1p.png" width="900">
+</p>
+
+
+> capacitor->0.15pf
+## Trise->0.2155 ns
+
+<p align="center">
+<img src="https://github.com/KMBABU-SPARK/CMOS-Inverter-Analysis-using-SKY130/blob/main/05_rise_and_fall_time_analysis/photos/cap0.15p.png" width="900">
 </p>
 
 ---
